@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "packager": "electron-packager ./ electron-quick-start --out ./OutApp --overwrite --icon=./app/icon.ico"
+    "packager": "electron-packager ./ electron-quick-start --out ./OutApp --overwrite --icon=./app/icon.png"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [

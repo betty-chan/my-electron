@@ -9,9 +9,10 @@ function createWindow() {
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
-    }
+    },
+    icon: './app/icon.png',
   })
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('./app/renderer/index.html')
   // 打开开发者工具.
   // mainWindow.webContents.openDevTools()
 }
